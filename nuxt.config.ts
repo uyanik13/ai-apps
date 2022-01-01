@@ -82,22 +82,16 @@ export default defineNuxtConfig({
     },
   },
 
-   buildDir: 'nuxt-build',
+  // buildDir: 'nuxt-build',
 
   modules: [
-     ['@nuxtjs/axios',{ proxyHeaders:false }],
+     //['@nuxtjs/axios',{ proxyHeaders:false }],
   ],
   buildModules: [
     '@pinia/nuxt',
     '@intlify/nuxt3'
   ],
-  intlify: {
-    localeDir: 'locales',
-    vueI18n: {
-      defaultSFCLang: 'json',
-    }
-  },
-  
+
 
   vite: {
     plugins: [

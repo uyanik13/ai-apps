@@ -34,7 +34,7 @@
         <!-- LOGO -->
         <a :href="localePath('/')">
           <div id="logo" class="flex w-48 mx-2 lg:mx-8 lg:w-64">
-            <img class="w-12 h-12" :src="`/assets/images/logo/favicon.png`" />
+            <img class="w-12 h-12" :src="`/logo/favicon.png`" />
             <p class="mt-2 ml-2 text-7 lg:text-7 font-sans font-bold">
               AI Apps
             </p>

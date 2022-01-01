@@ -50,9 +50,9 @@
       <div class="my-3">
         <CommonImageoverlay
           offset="0.5"
-          before="/assets/images/ai/before.png"
+          before="/ai/before.png"
           beforeLabel="BEFORE"
-          after="/assets/images/ai/after.png"
+          after="/ai/after.png"
           afterLabel="AFTER"
         />
       </div>
