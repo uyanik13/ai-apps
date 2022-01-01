@@ -11,7 +11,7 @@
           class="fill-current h-10 w-10"
         />
       </a>
-      <a href="mailto:ogur.uyanik@mgail.com" target="_blank">
+      <a href="mailto:ogur.uyanik@gmail.com" target="_blank">
         <Icon
           :icon="`flat-ui:mail`"
           :class="`text-base-content`"
