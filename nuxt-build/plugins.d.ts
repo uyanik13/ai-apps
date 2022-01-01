@@ -13,7 +13,6 @@ type NuxtAppInjections =
   InjectionType<typeof import('plugin').default> &
   InjectionType<typeof import('dist.plugin.3140050b').default> &
   InjectionType<typeof import('../node_modules/@nuxt/nitro/dist/runtime/app/nitro.client').default> &
-  InjectionType<typeof import('../#build/components').default> &
   InjectionType<typeof import('../#build/components').default>
 
 declare module '#app' {

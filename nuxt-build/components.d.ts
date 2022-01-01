@@ -2,15 +2,12 @@
 declare module 'vue' {
   export interface GlobalComponents {
     'DaisyuiThemeSwitcher': typeof import('../components/DaisyuiThemeSwitcher.vue')['default'],
-    'MemoryUsageDemo': typeof import('../components/MemoryUsageDemo.vue')['default'],
     'ReloadPrompt': typeof import('../components/ReloadPrompt.vue')['default'],
     'CommonBreadcrumb': typeof import('../components/common/Breadcrumb.vue')['default'],
     'CommonFooter': typeof import('../components/common/Footer.vue')['default'],
     'CommonHeader': typeof import('../components/common/Header.vue')['default'],
     'CommonImageoverlay': typeof import('../components/common/Imageoverlay.vue')['default'],
     'CommonMobilebottommenu': typeof import('../components/common/Mobilebottommenu.vue')['default'],
-    'HeaderMain': typeof import('../components/header/HeaderMain.vue')['default'],
-    'HeaderResponsiveMenu': typeof import('../components/header/HeaderResponsiveMenu.vue')['default'],
     'IconHome': typeof import('../components/icon/home.vue')['default'],
     'LoadingArt': typeof import('../components/loading/Art.vue')['default'],
     'LoadingName': typeof import('../components/loading/Name.vue')['default'],

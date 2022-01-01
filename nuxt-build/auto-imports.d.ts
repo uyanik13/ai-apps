@@ -75,8 +75,8 @@ declare global {
   const useSlots: typeof import('vue')['useSlots']
   const useTransitionState: typeof import('vue')['useTransitionState']
   const useBreakPoints: typeof import('../composables/useBreakPoints')['default']
-  const useUploadImage: typeof import('../composables/useUploadImage')['default']
   const useRandomString: typeof import('../composables/useRandomString')['default']
+  const useUploadImage: typeof import('../composables/useUploadImage')['default']
   const useRouter: typeof import('../node_modules/nuxt3/dist/pages/runtime/composables')['useRouter']
   const useRoute: typeof import('../node_modules/nuxt3/dist/pages/runtime/composables')['useRoute']
 }

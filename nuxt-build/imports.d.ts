@@ -3,6 +3,6 @@ export { useMeta } from '#meta';
 export { isVue2, isVue3 } from 'vue-demi';
 export { defineEmits, defineExpose, defineProps, withCtx, withDefaults, withDirectives, withKeys, withMemo, withModifiers, withScopeId, onActivated, onBeforeMount, onBeforeUnmount, onBeforeUpdate, onDeactivated, onErrorCaptured, onMounted, onRenderTracked, onRenderTriggered, onServerPrefetch, onUnmounted, onUpdated, computed, customRef, isProxy, isReactive, isReadonly, isRef, markRaw, proxyRefs, reactive, readonly, ref, shallowReactive, shallowReadonly, shallowRef, stop, toRaw, toRef, toRefs, triggerRef, unref, watch, watchEffect, effect, effectScope, getCurrentScope, onScopeDispose, defineComponent, defineAsyncComponent, getCurrentInstance, h, inject, nextTick, provide, useAttrs, useCssModule, useCssVars, useSlots, useTransitionState } from 'vue';
 export { default as useBreakPoints } from '/Users/ogur.uyanik/Desktop/PROJECTS/top-nuxt3/composables/useBreakPoints.ts';
-export { default as useUploadImage } from '/Users/ogur.uyanik/Desktop/PROJECTS/top-nuxt3/composables/useUploadImage.ts';
 export { default as useRandomString } from '/Users/ogur.uyanik/Desktop/PROJECTS/top-nuxt3/composables/useRandomString.ts';
+export { default as useUploadImage } from '/Users/ogur.uyanik/Desktop/PROJECTS/top-nuxt3/composables/useUploadImage.ts';
 export { useRouter, useRoute } from '/Users/ogur.uyanik/Desktop/PROJECTS/top-nuxt3/node_modules/nuxt3/dist/pages/runtime/composables';
