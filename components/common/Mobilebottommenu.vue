@@ -1,21 +1,6 @@
 <template>
   <div
-    class="
-      fixed
-      bottom-0
-      z-40
-      py-2
-      flex-row
-      justify-center
-      block
-      w-full
-      bg-white
-      h-15
-      sm:block
-      md:block
-      lg:hidden
-      shadow-2xl
-    "
+    class="fixed bottom-0 z-40 py-2 flex-row justify-center block w-full bg-white h-15 sm:block md:block lg:hidden shadow-2xl"
   >
     <div class="container">
       <nav class="w-full">
@@ -23,7 +8,7 @@
           class="flex items-center justify-center px-10 mx-auto pb-1 list-none"
         >
           <nuxt-link :to="item.slug" v-for="item in menuItems" :key="item.id">
-            <div class="grid text-secondary mx-5">
+            <div class="grid text-secondary mx-3">
               <div class="flex flex-col justify-center items-center">
                 <Icon
                   :icon="item.icon.name"
@@ -37,7 +22,7 @@
             <Icon
               :icon="`flat-ui:mail`"
               :class="`text-base-content`"
-              class="fill-current h-10 w-10"
+              class="fill-current h-8 w-8"
             />
           </a>
         </ul>
@@ -57,7 +42,7 @@ const menuItems = ref<Array<Menu>>([
     slug: "/",
     icon: {
       name: "flat-color-icons:home",
-      h: 10,
+      h: 8,
       color: "text-red-500",
     },
   },
@@ -67,7 +52,7 @@ const menuItems = ref<Array<Menu>>([
     slug: "/text-to-art",
     icon: {
       name: "emojione-monotone:artist-palette",
-      h: 10,
+      h: 8,
       color: "text-red-500",
     },
   },
@@ -77,7 +62,7 @@ const menuItems = ref<Array<Menu>>([
     slug: "/restore-photo",
     icon: {
       name: "ic:outline-photo-camera-front",
-      h: 10,
+      h: 8,
       color: "text-red-500",
     },
   },
@@ -87,7 +72,17 @@ const menuItems = ref<Array<Menu>>([
     slug: "/image-colorize",
     icon: {
       name: "emojione:artist-palette",
-      h: 10,
+      h: 8,
+      color: "text-red-500",
+    },
+  },
+  {
+    id: 5,
+    title: "Grammarly",
+    slug: "/grammar-fixer",
+    icon: {
+      name: "bi:translate",
+      h: 8,
       color: "text-red-500",
     },
   },

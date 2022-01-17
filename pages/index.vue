@@ -9,36 +9,11 @@
           {{ $t("h2_text") }}
         </h2>
         <div
-          class="
-            flex
-            justify-center
-            py-6
-            lg:justify-start
-            items-center
-            lg:items-start
-            pl-8
-          "
+          class="flex justify-center py-6 lg:justify-start items-center lg:items-start pl-8"
         >
           <nuxt-link
             to="/restore-photo"
-            class="
-              px-6
-              lg:px-12
-              py-2
-              lg:py-3
-              mx-8
-              font-bold
-              text-white
-              transition
-              duration-500
-              ease-in-out
-              rounded-lg
-              focus:outline-none
-              bg-primary
-              hover:bg-secondary
-              text-4
-              lg:text-5
-            "
+            class="px-6 lg:px-12 py-2 lg:py-3 mx-8 font-bold text-white transition duration-500 ease-in-out rounded-lg focus:outline-none bg-primary hover:bg-secondary text-4 lg:text-5"
           >
             {{ $t("Get Started") }}
           </nuxt-link>

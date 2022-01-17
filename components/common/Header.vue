@@ -6,30 +6,11 @@
     >
       <div
         id="topbar"
-        class="
-          justify-between
-          hidden
-          lg:px-24
-          py-2
-          mx-auto
-          bg-secondary
-          sm:block
-          md:block
-          lg:flex
-        "
+        class="justify-between hidden lg:px-24 py-2 mx-auto bg-secondary sm:block md:block lg:flex"
       ></div>
 
       <div
-        class="
-          container
-          flex
-          items-center
-          justify-between
-          py-4
-          mx-auto
-          border-gray-300 border-b-default
-          lg:border-none
-        "
+        class="container flex items-center justify-between py-4 mx-auto border-gray-300 border-b-default lg:border-none"
       >
         <!-- LOGO -->
         <a :href="localePath('/')">
@@ -43,16 +24,7 @@
 
         <div id="menu" class="flex mx-2 lg:w-10/12 sm:w-full">
           <ul
-            class="
-              items-center
-              flex-grow
-              block
-              w-full
-              mt-8
-              font-bold
-              tracking-wide
-              lg:flex lg:flex-initial lg:w-auto lg:mt-0
-            "
+            class="items-center flex-grow block w-full mt-8 font-bold tracking-wide lg:flex lg:flex-initial lg:w-auto lg:mt-0"
             :class="menuOpen ? 'block' : 'hidden'"
           >
             <li
@@ -64,43 +36,19 @@
             </li>
           </ul>
         </div>
-        <div id="theme-switcher" class="flex mx-2 lg:w-10/12 sm:w-full">
-          <DaisyuiThemeSwitcher />
-        </div>
 
         <div id="language" class="lg:block w-3/12 lg:w-3/12" v-if="false">
           <div class="group inline-block">
             <button
               :class="type == 'xs' ? `px-3.5` : ``"
-              class="
-                outline-none
-                text-white
-                focus:outline-none
-                border
-                lg:px-3
-                py-2
-                bg-primary
-                rounded-lg
-                flex
-                items-center
-                lg:w-32
-              "
+              class="outline-none text-white focus:outline-none border lg:px-3 py-2 bg-primary rounded-lg flex items-center lg:w-32"
             >
               <span class="pr-1 font-semibold flex-1">{{
                 type == "xs" ? $i18n.locale : getLocale($i18n.locale)
               }}</span>
               <span>
                 <svg
-                  class="
-                    fill-current
-                    h-4
-                    w-4
-                    transform
-                    group-hover:-rotate-180
-                    transition
-                    duration-150
-                    ease-in-out
-                  "
+                  class="fill-current h-4 w-4 transform group-hover:-rotate-180 transition duration-150 ease-in-out"
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 20 20"
                 >
@@ -111,20 +59,7 @@
               </span>
             </button>
             <ul
-              class="
-                bg-white
-                border
-                rounded-sm
-                transform
-                scale-0
-                group-hover:scale-100
-                absolute
-                transition
-                duration-150
-                ease-in-out
-                origin-top
-                z-90
-              "
+              class="bg-white border rounded-sm transform scale-0 group-hover:scale-100 absolute transition duration-150 ease-in-out origin-top z-90"
             >
               <li
                 v-for="locale in $i18n.availableLocales"
@@ -132,20 +67,7 @@
                 class="py-1 rounded-md shadow-xs"
               >
                 <a
-                  class="
-                    block
-                    px-2
-                    lg:px-4
-                    py-2
-                    text-sm
-                    leading-5
-                    text-gray-700
-                    transition
-                    duration-150
-                    ease-in-out
-                    hover:bg-gray-200
-                    focus:outline-none focus:bg-gray-100
-                  "
+                  class="block px-2 lg:px-4 py-2 text-sm leading-5 text-gray-700 transition duration-150 ease-in-out hover:bg-gray-200 focus:outline-none focus:bg-gray-100"
                   role="menuitem"
                 >
                   <button
@@ -192,6 +114,14 @@ const menuItems = ref([
     id: 3,
     title: "Image Colorize",
     slug: "/image-colorize",
+    featured: null,
+    submenu: [],
+    isAdmin: false,
+  },
+  {
+    id: 4,
+    title: "Grammarly",
+    slug: "/grammar-fixer",
     featured: null,
     submenu: [],
     isAdmin: false,
